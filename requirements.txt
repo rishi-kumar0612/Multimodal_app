@@ -1,0 +1,20 @@
+# For text generation
+transformers==4.31.0
+torch>=2.0.0
+accelerate
+
+# For stable diffusion & ModelScope
+diffusers>=0.17.0
+moviepy==1.0.3
+
+# For Coqui TTS
+TTS==0.13.3
+
+# For Gradio front-end
+gradio==3.40.0
+
+# For optional LangChain "super agent"
+langchain==0.0.245
+
+# If you plan to use OpenAI for the manager agent
+openai==0.27.8
